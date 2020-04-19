@@ -1,0 +1,133 @@
+.navbar {
+  background: #000; }
+  .navbar .nav-item {
+    padding-left: 1em; }
+  .navbar .nav-link {
+    text-transform: uppercase; }
+
+#home-icon .fa {
+  font-size: 55px; }
+
+#ready {
+  position: relative;
+  background: url(../img/people1.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 250px; }
+  #ready .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#video {
+  position: relative;
+  background: url(../img/computer.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 250px; }
+  #video .fa {
+    font-size: 55px;
+    color: red; }
+  #video .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#photo img {
+  min-height: 250px; }
+
+#copyright {
+  background: #000; }
+
+#about {
+  background: url(../img/cyber.jpg) no-repeat;
+  background-size: cover;
+  min-height: 250px; }
+
+#card .fa {
+  font-size: 55px; }
+
+#testimonial .slick-prev::before {
+  color: red; }
+
+#testimonial .slick-next::before {
+  color: red; }
+
+#services {
+  background: url(../img/gather.jpg) no-repeat;
+  background-size: cover;
+  min-height: 250px;
+  background-attachment: fixed; }
+
+#blog {
+  background: url(../img/Emotionalgirl.jpg) no-repeat;
+  background-size: cover;
+  min-height: 250px;
+  background-attachment: fixed; }
+
+#contact {
+  background: url(../img/girllaptop.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 250px; }
+
+#programer .fa {
+  font-size: 25px; }
+
+#programer .fa:hover {
+  color: #0a85eb; }
+
+#programer img:hover {
+  cursor: pointer; }
+
+@media (max-width: 767px) {
+  .nav-item {
+    padding-left: 0em !important; }
+  #ready h3 {
+    margin-top: -10px; } }
+
+@media (max-width: 575px) {
+  #ready {
+    min-height: 300px; }
+    #ready h3 {
+      font-size: 30px;
+      margin-top: -10px; } }
+
+@media (max-width: 480px) {
+  #size h1 {
+    font-size: 30px; }
+  #size p {
+    font-size: 17px; }
+  #ready {
+    min-height: 300px; }
+    #ready h3 {
+      font-size: 30px;
+      margin-top: 5px; }
+    #ready p {
+      font-size: 17px; } }
+
+@media (max-width: 439px) {
+  #ready h3 {
+    margin-top: -20px; } }
+
+@media (max-width: 375px) {
+  #size h1 {
+    font-size: 23px;
+    margin-top: -10px; }
+  #size p {
+    font-size: 16px; }
+  #size button {
+    padding: 0 20px;
+    font-size: 12px;
+    margin-top: -7px; }
+  #ready h3 {
+    font-size: 23px;
+    margin-top: 3px; }
+  #ready p {
+    font-size: 17px; } }
